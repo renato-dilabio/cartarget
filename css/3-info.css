@@ -4,18 +4,27 @@
   margin-right: auto;
   height: fit-content;
   background-color: #fff;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  margin-top: 20px;
-  margin-bottom: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 10px;
 }
 
 .info .third {
-  width: 330px;
+  width: 320px;
   height: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.info .financing {
+  width: 260px;
+  display: flex;
+  justify-content: center;
 }
 
 .info .third div {
@@ -61,7 +70,7 @@
 }
 
 .info .third .financing-btn .financing-text {
-  width: 75%;
+  width: 80%;
   text-align: left;
   font-size: 10px;
   color: #fff;
@@ -76,6 +85,6 @@
 .info .third .financing-btn .uil {
   color: #fff;
   text-align: center;
-  font-size: 60px;
+  font-size: 50px;
   padding-bottom: 7px;
 }

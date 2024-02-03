@@ -92,15 +92,20 @@
 .header .car-sell {
   width: 100%;
   height: fit-content;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  flex-direction: row;
   align-items: center;
+  justify-content: space-between;
 }
 
-.header .car-sell div {
+.header .car-sell .sell-info {
   width: 470px;
   padding-right: 100px;
   margin: 30px 0;
+}
+
+.header .car-sell .sell-info2 {
+  padding-right: 0px;
 }
 
 .header .car-sell .title {
@@ -117,6 +122,11 @@
   margin-right: 8px;
 }
 
+.header .car-sell .sell-info .sell-subdiv {
+  display: flex;
+  flex-direction: column;
+}
+
 .header .car-sell .sell-info p {
   margin: 25px 0;
   font-weight: 400;
@@ -128,9 +138,9 @@
   border: none;
   color: #fff;
   height: 45px;
+  margin-bottom: 30px;
   border-radius: 10px;
   padding: 0 15px;
-  margin-bottom: 30px;
   transition: 0.2s;
 }
 
@@ -140,7 +150,7 @@
   background-color: rgb(230, 100, 100);
 }
 
-.header .car-sell .sell-info div {
+.header .car-sell .sell-info .sell-subdiv div {
   display: flex;
   align-items: center;
 }

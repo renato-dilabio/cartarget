@@ -1,0 +1,58 @@
+@media screen and (max-width: 1250px) {
+  .info {
+    width: 1300px;
+    overflow-x: hidden;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .header .main-head {
+    height: 80px;
+  }
+
+  .header .car-sell {
+    margin-top: 30px;
+    flex-direction: column;
+  }
+
+  .header .car-sell .sell-info {
+    width: 330px;
+    padding-right: 0;
+    text-align: center;
+    margin: 0;
+  }
+
+  .header .car-sell .sell-info p {
+    margin: 25px 30px;
+  }
+
+  .header .car-sell .sell-info img {
+    width: 80%;
+    transform: translateY(-180px);
+    margin-bottom: 30px;
+  }
+
+  .header .car-sell .sell-info .sell-subdiv {
+    transform: translateY(280px);
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .header,
+  .info,
+  .steps-content,
+  .opinions,
+  .questions,
+  .payments,
+  .footer {
+    width: 95%;
+  }
+
+  .header .main-head button .uil {
+    display: none;
+  }
+
+  .header .main-head .advertise {
+    width: 90px;
+  }
+}
