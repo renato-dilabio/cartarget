@@ -1,0 +1,154 @@
+/* main head */
+
+.header {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  height: fit-content;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header .main-head {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: end;
+}
+
+.header .main-head .head-content {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header .main-head .head-content #logo {
+  width: 200px;
+}
+
+.header .main-head .head-content #logo .logo {
+  width: 100%;
+}
+
+.header .main-head .buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+.header .main-head button {
+  border-radius: 10px;
+  border: 1px solid #353535;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+  font-family: inherit;
+  font-size: 1em;
+  letter-spacing: inherit;
+  font-weight: 600;
+  height: 40px;
+}
+
+.header .main-head .advertise {
+  width: 168px;
+  background-color: #fff;
+  color: #353535;
+  transition: 0.2s;
+}
+
+.header .main-head .advertise:hover {
+  cursor: pointer;
+  background-color: #ebebeb;
+  border: 1px solid #858585;
+  scale: 1.05;
+}
+
+.header .main-head button .uil {
+  font-size: 22px;
+}
+
+.header .main-head .login {
+  background-color: #202020;
+  color: #fff;
+  margin-left: 15px;
+  border: none;
+  transition: 0.2s;
+}
+
+.header .main-head .login:hover {
+  cursor: pointer;
+  background-color: #505050;
+  scale: 1.05;
+}
+
+/* secondary head */
+
+.header .car-sell {
+  width: 100%;
+  height: fit-content;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.header .car-sell div {
+  width: 470px;
+  padding-right: 100px;
+  margin: 30px 0;
+}
+
+.header .car-sell .title {
+  font-size: 40px;
+  font-weight: 800;
+  display: inline;
+}
+
+.header .car-sell .sell-info .red {
+  color: rgb(230, 70, 70);
+}
+
+.header .car-sell .sell-info .black {
+  margin-right: 8px;
+}
+
+.header .car-sell .sell-info p {
+  margin: 25px 0;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.header .car-sell .sell-info .sell-btn {
+  background-color: rgb(230, 70, 70);
+  border: none;
+  color: #fff;
+  height: 45px;
+  border-radius: 10px;
+  padding: 0 15px;
+  margin-bottom: 30px;
+  transition: 0.2s;
+}
+
+.header .car-sell .sell-info .sell-btn:hover {
+  scale: 1.05;
+  cursor: pointer;
+  background-color: rgb(230, 100, 100);
+}
+
+.header .car-sell .sell-info div {
+  display: flex;
+  align-items: center;
+}
+
+.header .car-sell .sell-info .newsletter {
+  margin-right: 10px;
+}
+
+.header .car-sell div img {
+  width: 100%;
+}

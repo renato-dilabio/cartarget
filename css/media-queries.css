@@ -1,0 +1,14 @@
+@media screen and (max-width: 1080px) {
+  .header,
+  .info,
+  .steps-content,
+  .opinions,
+  .questions,
+  .payments,
+  .footer {
+    width: 95%;
+  }
+  .header .car-sell {
+    grid-template-columns: 1fr;
+  }
+}
