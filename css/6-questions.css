@@ -16,6 +16,10 @@
   border-bottom: 2px solid #dfdfdf;
 }
 
+.questions .faq .hidden {
+  display: none;
+}
+
 .questions .faq .faq-question {
   display: flex;
   flex-direction: row;

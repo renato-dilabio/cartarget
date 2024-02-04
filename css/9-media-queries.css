@@ -1,8 +1,20 @@
 @media screen and (max-width: 1250px) {
-  .info {
-    width: 1300px;
+  .info .info-content {
+    /* width: 300vw; */
+    width: 300vw;
+    margin: 0;
     overflow-x: hidden;
+    justify-content: space-around;
+    transition: 1s;
   }
+  .info #nav-manual,
+  #nav-auto {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
   .footer .footer-content .footer-navigation {
     display: flex;
     flex-direction: column;
@@ -10,6 +22,12 @@
     align-items: center;
     gap: 15px;
   }
+}
+.info .info-content .third {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 @media screen and (max-width: 1080px) {

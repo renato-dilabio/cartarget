@@ -1,4 +1,8 @@
 .info {
+  width: 100%;
+}
+
+.info .info-content {
   width: 80%;
   margin-left: auto;
   margin-right: auto;
@@ -7,42 +11,96 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
   margin-top: 30px;
   margin-bottom: 30px;
   padding: 10px;
+  justify-content: space-between;
 }
 
-.info .third {
-  width: 320px;
-  height: 100%;
+.info input {
+  display: none;
+}
+
+.info #nav-manual .manual-btn {
+  z-index: 10;
+}
+
+.info #nav-manual,
+#nav-auto {
+  display: none;
+}
+
+.info #nav-auto {
+  position: relative;
+  bottom: 10px;
+}
+
+.info #nav-manual .manual-btn,
+#nav-auto .auto-btn {
+  width: 20px;
+  height: 10px;
+  border: 1px solid #909090;
+  border-radius: 99px;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  align-items: center;
+  margin: 0px 10px;
+  transition: 0.1s;
+}
+
+.info #nav-manual .manual-btn:hover {
+  background-color: #909090;
+}
+
+#radio1:checked ~ .info-content {
+  transform: translateX(0);
+}
+#radio2:checked ~ .info-content {
+  transform: translateX(-33.3%);
+}
+#radio3:checked ~ .info-content {
+  transform: translateX(-66%);
+}
+
+#radio1:checked ~ #nav-auto .btn-1 {
+  background-color: #909090;
+}
+#radio2:checked ~ #nav-auto .btn-2 {
+  background-color: #909090;
+}
+#radio3:checked ~ #nav-auto .btn-3 {
+  background-color: #909090;
+}
+
+.info .info-content .third {
+  max-width: 300px;
+  height: 120px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.info .financing {
-  width: 260px;
-  display: flex;
-  justify-content: center;
+.info .info-content .financing {
+  margin: 0 20px;
 }
 
-.info .third div {
+.info .info-content .third div {
   width: 50%;
   padding: 0 10px;
   text-align: right;
 }
 
-.info .third div img {
-  width: 100%;
+.info .info-content .third div img {
+  width: 80%;
   opacity: 0.85;
 }
 
-.info .third div p {
+.info .info-content .third div p {
   margin: 10px 0;
 }
 
-.info .third a {
+.info .info-content .third a {
   font-family: inherit;
   font-weight: 600;
   font-size: 15px;
@@ -51,10 +109,9 @@
   transition: 0.2s;
 }
 
-.info .third .financing-btn {
+.info .info-content .financing .financing-btn {
   display: flex;
   align-items: center;
-  justify-content: space-around;
   padding-top: 10px;
   padding-left: 15px;
   border-radius: 20px;
@@ -64,12 +121,13 @@
   transition: 0.2s;
 }
 
-.info .third .financing-btn:hover {
-  scale: 0.95;
+.info .info-content .third .financing-btn:hover {
+  scale: 1.05;
   cursor: pointer;
+  opacity: 0.9;
 }
 
-.info .third .financing-btn .financing-text {
+.info .info-content .third .financing-btn .financing-text {
   width: 80%;
   text-align: left;
   font-size: 10px;
@@ -77,12 +135,12 @@
   letter-spacing: 0.5px;
 }
 
-.info .third .financing-btn .title {
+.info .info-content .third .financing-btn .title {
   font-size: 15px;
   font-weight: 500;
 }
 
-.info .third .financing-btn .uil {
+.info .info-content .third .financing-btn .uil {
   color: #fff;
   text-align: center;
   font-size: 50px;
