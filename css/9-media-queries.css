@@ -1,7 +1,7 @@
 @media screen and (max-width: 1250px) {
   .info .info-content {
     /* width: 300vw; */
-    width: 300vw;
+    width: 300%;
     margin: 0;
     overflow-x: hidden;
     justify-content: space-around;
@@ -93,15 +93,16 @@
 
 @media screen and (max-width: 570px) {
   .header,
+  .questions {
+    width: 95%;
+  }
   .info,
   .steps-content,
   .opinions,
-  .questions,
   .payments,
   .footer {
-    width: 95%;
+    width: 100%;
   }
-
   .header .main-head button .uil {
     display: none;
   }
