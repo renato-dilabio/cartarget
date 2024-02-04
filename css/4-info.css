@@ -32,14 +32,18 @@
 
 .info #nav-auto {
   position: relative;
-  bottom: 10px;
+  bottom: 5px;
+}
+
+.info #nav-auto .auto-btn {
+  background-color: #909090;
 }
 
 .info #nav-manual .manual-btn,
 #nav-auto .auto-btn {
-  width: 20px;
-  height: 10px;
-  border: 1px solid #909090;
+  width: 40px;
+  height: 5px;
+  border: none;
   border-radius: 99px;
   display: flex;
   justify-content: center;
@@ -50,7 +54,7 @@
 }
 
 .info #nav-manual .manual-btn:hover {
-  background-color: #909090;
+  background-color: rgb(230, 70, 70);
 }
 
 #radio1:checked ~ .info-content {
@@ -64,13 +68,13 @@
 }
 
 #radio1:checked ~ #nav-auto .btn-1 {
-  background-color: #909090;
+  background-color: rgb(230, 70, 70);
 }
 #radio2:checked ~ #nav-auto .btn-2 {
-  background-color: #909090;
+  background-color: rgb(230, 70, 70);
 }
 #radio3:checked ~ #nav-auto .btn-3 {
-  background-color: #909090;
+  background-color: rgb(230, 70, 70);
 }
 
 .info .info-content .third {

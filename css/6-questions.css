@@ -43,8 +43,16 @@
   color: rgb(230, 70, 70);
 }
 
+.questions .faq .faq-question .uil {
+  transition: 0.2s;
+}
+
 .questions .faq .faq-answer {
   font-size: 14px;
   padding-bottom: 20px;
   color: #808080;
+}
+
+.questions .faq .girar {
+  transform: rotate(180deg);
 }
