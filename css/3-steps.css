@@ -11,11 +11,12 @@
 }
 
 .steps-content .section-title {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  gap: 6px;
-  padding: 30px 0;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.steps-content .section-title h2 {
+  display: inline;
 }
 
 .steps-content .section-title .title2 {
@@ -31,12 +32,12 @@
 }
 
 .steps-content .steps-img img {
-  width: 35%;
+  width: 280px;
   margin-bottom: 30px;
 }
 
 .steps-content .steps-img p {
-  width: 35%;
+  width: 320px;
   text-align: center;
 }
 

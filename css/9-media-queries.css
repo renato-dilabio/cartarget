@@ -15,6 +15,14 @@
     justify-content: center;
   }
 
+  .steps .steps-content .steps-cards {
+    width: 400%;
+    margin: 0;
+    overflow-x: hidden;
+    justify-content: space-around;
+    transition: 1s;
+  }
+
   .footer .footer-content .footer-navigation {
     display: flex;
     flex-direction: column;
@@ -115,6 +123,10 @@
   .header,
   .questions {
     width: 95%;
+  }
+
+  .header .main-head .head-content #logo {
+    width: 180px;
   }
   .info,
   .steps-content,
