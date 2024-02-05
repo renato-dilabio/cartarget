@@ -57,26 +57,6 @@
   background-color: rgb(230, 70, 70);
 }
 
-#radio1:checked ~ .info-content {
-  transform: translateX(0);
-}
-#radio2:checked ~ .info-content {
-  transform: translateX(-33.3%);
-}
-#radio3:checked ~ .info-content {
-  transform: translateX(-66%);
-}
-
-#radio1:checked ~ #nav-auto .btn-1 {
-  background-color: rgb(230, 70, 70);
-}
-#radio2:checked ~ #nav-auto .btn-2 {
-  background-color: rgb(230, 70, 70);
-}
-#radio3:checked ~ #nav-auto .btn-3 {
-  background-color: rgb(230, 70, 70);
-}
-
 .info .info-content .third {
   max-width: 300px;
   height: 120px;

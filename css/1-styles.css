@@ -18,3 +18,20 @@ body {
   font-weight: 600;
   letter-spacing: 1px;
 }
+
+.sell-btn {
+  background-color: rgb(230, 70, 70);
+  border: none;
+  color: #fff;
+  height: 45px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  padding: 0 15px;
+  transition: 0.2s;
+}
+
+.sell-btn:hover {
+  scale: 1.05;
+  cursor: pointer;
+  background-color: rgb(230, 100, 100);
+}

@@ -9,3 +9,102 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+.steps-content .section-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 6px;
+  padding: 30px 0;
+}
+
+.steps-content .section-title .title2 {
+  color: rgb(230, 70, 70);
+}
+
+.steps-content .steps-img {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.steps-content .steps-img img {
+  width: 35%;
+  margin-bottom: 30px;
+}
+
+.steps-content .steps-img p {
+  width: 35%;
+  text-align: center;
+}
+
+.steps .steps-btn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.steps #steps-btn {
+  width: 35%;
+}
+
+.steps-content .steps-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.steps-content .steps-cards input {
+  display: none;
+}
+
+.steps-content .steps-cards .stp-card .card-number {
+  width: 30px;
+  height: 30px;
+  background-color: rgba(230, 70, 70, 0.2);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-weight: 500;
+}
+
+.steps-content .steps-cards .stp-card {
+  width: 240px;
+  height: 280px;
+  background-color: #fff;
+  border-radius: 15px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.steps-content .steps-cards .stp-card .stp-img {
+  display: flex;
+  justify-content: center;
+}
+
+.steps-content .steps-cards img {
+  width: 60px;
+}
+
+.steps-content .steps-cards .stp-card .stp-title {
+  width: 130px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 15px;
+  margin: 15px 0;
+}
+
+.steps-content .steps-cards .stp-card .stp-text {
+  width: 70%;
+  text-align: center;
+}

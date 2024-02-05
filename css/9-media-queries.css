@@ -22,12 +22,32 @@
     align-items: center;
     gap: 15px;
   }
-}
-.info .info-content .third {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  .info .info-content .third {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #radio1:checked ~ .info-content {
+    transform: translateX(0);
+  }
+  #radio2:checked ~ .info-content {
+    transform: translateX(-33.3%);
+  }
+  #radio3:checked ~ .info-content {
+    transform: translateX(-66%);
+  }
+
+  #radio1:checked ~ #nav-auto .btn-1 {
+    background-color: rgb(230, 70, 70);
+  }
+  #radio2:checked ~ #nav-auto .btn-2 {
+    background-color: rgb(230, 70, 70);
+  }
+  #radio3:checked ~ #nav-auto .btn-3 {
+    background-color: rgb(230, 70, 70);
+  }
 }
 
 @media screen and (max-width: 1080px) {
@@ -53,7 +73,7 @@
 
   .header .car-sell .sell-info img {
     width: 80%;
-    transform: translateY(-180px);
+    transform: translateY(-190px);
     margin-bottom: 30px;
   }
 
