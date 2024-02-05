@@ -1,7 +1,8 @@
 .steps {
-  width: 100%;
+  width: 100vw;
   height: fit-content;
   background-color: #f0f4ff;
+  overflow-x: hidden;
 }
 
 .steps-content {
@@ -37,7 +38,7 @@
 }
 
 .steps-content .steps-img p {
-  width: 320px;
+  width: 330px;
   text-align: center;
 }
 
@@ -48,7 +49,7 @@
 }
 
 .steps #steps-btn {
-  width: 35%;
+  width: 300px;
 }
 
 .steps-content .steps-cards {
@@ -106,6 +107,6 @@
 }
 
 .steps-content .steps-cards .stp-card .stp-text {
-  width: 70%;
+  width: 80%;
   text-align: center;
 }
