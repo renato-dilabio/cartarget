@@ -48,7 +48,7 @@
   justify-content: space-between;
 }
 
-.steps-content .steps-cards input {
+.steps input {
   display: none;
 }
 
