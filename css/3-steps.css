@@ -101,6 +101,42 @@
   text-align: center;
 }
 
+.steps #s-nav-manual .manual-btn {
+  z-index: 10;
+}
+
+.steps #s-nav-manual,
+#s-nav-auto {
+  display: none;
+}
+
+.steps #s-nav-auto {
+  position: relative;
+  bottom: 15px;
+}
+
+.steps #s-nav-auto .auto-btn {
+  background-color: #909090;
+}
+
+.steps #s-nav-manual .manual-btn,
+#s-nav-auto .auto-btn {
+  width: 40px;
+  height: 5px;
+  border: none;
+  border-radius: 99px;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  align-items: center;
+  margin: 0px 10px;
+  transition: 0.1s;
+}
+
+.steps #s-nav-manual .manual-btn:hover {
+  background-color: rgb(230, 70, 70);
+}
+
 .steps .steps-btn {
   width: 100%;
   display: flex;

@@ -13,6 +13,15 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    margin-bottom: 10px;
+  }
+  .steps #s-nav-manual,
+  #s-nav-auto {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
   }
 
   .steps .steps-content .steps-cards {
