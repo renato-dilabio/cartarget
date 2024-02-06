@@ -52,6 +52,10 @@
   display: none;
 }
 
+.steps-content .steps-cards .stp-card .next {
+  display: none;
+}
+
 .steps-content .steps-cards .stp-card .card-number {
   width: 30px;
   height: 30px;
@@ -67,7 +71,7 @@
 }
 
 .steps-content .steps-cards .stp-card {
-  width: 210px;
+  width: 240px;
   height: 300px;
   background-color: #fff;
   border-radius: 15px;

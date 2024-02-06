@@ -1,7 +1,8 @@
+@media screen and (max-width: 1400px) {
+}
 @media screen and (max-width: 1250px) {
   .info .info-content {
     width: 300%;
-    margin: 0;
     overflow-x: hidden;
     justify-content: space-around;
     transition: 1s;
@@ -89,6 +90,9 @@
   }
   #radio3:checked ~ #nav-auto .btn-3 {
     background-color: rgb(230, 70, 70);
+  }
+  .steps-content .steps-cards .stp-card .next {
+    display: block;
   }
 }
 

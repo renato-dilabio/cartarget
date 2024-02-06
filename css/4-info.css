@@ -1,22 +1,22 @@
 .info {
   width: 100vw;
   overflow-x: hidden;
+  padding-bottom: 20px;
 }
 
 .info .info-content {
   width: 80%;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 60px;
+  margin-bottom: 20px;
   height: fit-content;
   background-color: #fff;
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-top: 30px;
-  margin-bottom: 30px;
   padding: 10px;
   justify-content: space-between;
-  padding-top: 15px;
 }
 
 .info input {
