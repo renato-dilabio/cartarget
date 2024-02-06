@@ -13,9 +13,10 @@
 
 .header .main-head {
   width: 100%;
-  height: 100px;
+  height: 80px;
   display: flex;
   align-items: end;
+  padding-bottom: 10px;
 }
 
 .header .main-head .head-content {

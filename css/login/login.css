@@ -1,0 +1,44 @@
+.head-fix {
+  position: fixed;
+  width: 100vw;
+  top: 0;
+  background-color: #fff;
+  z-index: 30;
+}
+
+.footer {
+  position: absolute;
+  bottom: -55px;
+}
+.login-page {
+  width: 100vw;
+  margin-top: 80px;
+  height: 80vh;
+  background-color: #f0f4ff;
+  overflow-x: hidden;
+}
+.login-page .login-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-page .login-content .login-img {
+  height: 200px;
+  background-color: rgb(231, 162, 130);
+}
+.login-page .login-content .login-img img {
+  height: 100%;
+}
+
+.login-page .login-content .login-card {
+  width: 630px;
+  height: 500px;
+  background-color: #fff;
+  border-radius: 10px;
+  z-index: 10;
+  position: absolute;
+  top: 130px;
+  filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.1));
+}
