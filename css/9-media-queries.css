@@ -45,6 +45,32 @@
     align-items: center;
   }
 
+  #radio5:checked ~ .steps-content .steps-cards {
+    transform: translateX(0);
+  }
+  #radio6:checked ~ .steps-content .steps-cards {
+    transform: translateX(-25%);
+  }
+  #radio7:checked ~ .steps-content .steps-cards {
+    transform: translateX(-50%);
+  }
+  #radio8:checked ~ .steps-content .steps-cards {
+    transform: translateX(-75%);
+  }
+
+  #radio5:checked ~ #s-nav-auto .btn-5 {
+    background-color: rgb(230, 70, 70);
+  }
+  #radio6:checked ~ #s-nav-auto .btn-6 {
+    background-color: rgb(230, 70, 70);
+  }
+  #radio7:checked ~ #s-nav-auto .btn-7 {
+    background-color: rgb(230, 70, 70);
+  }
+  #radio8:checked ~ #s-nav-auto .btn-8 {
+    background-color: rgb(230, 70, 70);
+  }
+
   #radio1:checked ~ .info-content {
     transform: translateX(0);
   }
@@ -62,32 +88,6 @@
     background-color: rgb(230, 70, 70);
   }
   #radio3:checked ~ #nav-auto .btn-3 {
-    background-color: rgb(230, 70, 70);
-  }
-
-  #radio5:checked ~ .steps-content .steps-cards {
-    transform: translateX(0);
-  }
-  #radio6:checked ~ .steps-content .steps-cards {
-    transform: translateX(-25%);
-  }
-  #radio7:checked ~ .steps-content .steps-cards {
-    transform: translateX(-50%);
-  }
-  #radio8:checked ~ .steps-content .steps-cards {
-    transform: translateX(-75%);
-  }
-
-  #radio5:checked ~ #s-nav-auto .s-btn-1 {
-    background-color: rgb(230, 70, 70);
-  }
-  #radio6:checked ~ #s-nav-auto .s-btn-2 {
-    background-color: rgb(230, 70, 70);
-  }
-  #radio7:checked ~ #s-nav-auto .s-btn-3 {
-    background-color: rgb(230, 70, 70);
-  }
-  #radio8:checked ~ #s-nav-auto .s-btn-4 {
     background-color: rgb(230, 70, 70);
   }
 }

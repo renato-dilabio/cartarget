@@ -101,6 +101,13 @@
   text-align: center;
 }
 
+.steps-content .steps-cards .stp-card .next {
+  position: absolute;
+  right: -60px;
+  font-size: 50px;
+  color: rgba(230, 70, 70, 0.5);
+}
+
 .steps #s-nav-manual .manual-btn {
   z-index: 10;
 }
